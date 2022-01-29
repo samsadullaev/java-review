@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_1_27_2022_7_38_PM_[Changes]" date="1643330298157" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_27_2022_7_38_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 1/27/2022 7:38 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="collections-review/out/production/collections-review/MapReview.class" />
+    <option name="AFTER_PATH" value="collections-review/out/production/collections-review/MapReview.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_27_2022_7_38_PM_[Changes]/MapReview.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="collections-review/out/production/collections-review/ArrayListReview.class" />
+    <option name="AFTER_PATH" value="collections-review/out/production/collections-review/ArrayListReview.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_27_2022_7_38_PM_[Changes]/ArrayListReview.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="collections-review/out/production/collections-review/SetReview.class" />
+    <option name="AFTER_PATH" value="collections-review/out/production/collections-review/SetReview.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_27_2022_7_38_PM_[Changes]/SetReview.class" />
+  </binary>
+</changelist>
