@@ -1,9 +1,6 @@
 package functional_Interface;
 
-import java.util.function.BiConsumer;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
+import java.util.function.*;
 
 public class Examples {
     public static void main(String[] args) {
@@ -41,6 +38,12 @@ public class Examples {
         Function<String,String>fun =  s ->"Hello "+s;
         String str = fun.apply("Abbos");
         System.out.println(str);
+
+        System.out.println(fun.apply("Apple"));
+
+        // TODO Supplier
+        Supplier<Double> randomValue = () -> Math.random();
+        System.out.println(randomValue.get());
 
     }
 }
