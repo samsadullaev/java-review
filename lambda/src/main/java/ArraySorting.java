@@ -10,8 +10,7 @@ public class ArraySorting {
         as.sort(qs);
         as.sort(bs);
 
-
-
+        
 
     }
 
