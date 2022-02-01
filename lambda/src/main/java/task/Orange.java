@@ -8,7 +8,7 @@ import lombok.*;
 //@Getter
 //@Setter
 @Builder  //@Builder generate all @AllArgsConstructor unless there is other @XArgsConstructor
-//@Data
+@Data
 public class Orange {
 
     private int weight;
