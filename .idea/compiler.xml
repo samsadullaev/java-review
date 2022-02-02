@@ -11,6 +11,7 @@
         <module name="SelfPractice" />
         <module name="oop-review" />
         <module name="generics" />
+        <module name="streams" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -18,6 +19,7 @@
       <module name="lambda" target="11" />
       <module name="oop-review" target="11" />
       <module name="SelfPractice" target="11" />
+      <module name="streams" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
