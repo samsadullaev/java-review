@@ -5,45 +5,57 @@ import java.util.function.*;
 public class Examples {
     public static void main(String[] args) {
 
-        // TODO : Predicate
-//        Predicate<Integer> lesserThen=new Predicate<Integer>() {
-//            //Animate class
+        //************PREDICATE******************//
+
+//        Predicate<Integer> lesserThan = new Predicate<Integer>() {
 //            @Override
 //            public boolean test(Integer integer) {
-//                return integer < 18;
+//                return integer<18;
 //            }
 //        };
+//
+//        lesserThan.test(50);
 
-      //  lesserThen.test(50);
-
-
-        Predicate<Integer> lesserThean= a -> a<18; //Implementation of test method that belongs to Predicate interface
-
-        boolean test = lesserThean.test(50);
-        System.out.println("test = " + test);
+        Predicate<Integer> lesserThan = b -> b<18; //Implementation of test method that belongs to Predicate interface
+        Boolean result = lesserThan.test(50);
+        System.out.println(result);
 
 
-        // TODO : Consumer
-        Consumer<Integer>display= i-> System.out.println(i);
-       // Consumer<Integer>display= System.out::println;
+        //************CONSUMER******************//
+        Consumer<Integer> display = i -> System.out.println(i);
         display.accept(50);
 
-
-        // TODO : BiConsumer
-        BiConsumer<Integer,Integer> addTwo= (x,y) -> System.out.println(x+y);
+        //************BICONSUMER******************//
+        BiConsumer<Integer,Integer> addTwo = (x,y) -> System.out.println(x+y);
         addTwo.accept(100,200);
 
-
-        //TODO Function
-        Function<String,String>fun =  s ->"Hello "+s;
-        String str = fun.apply("Abbos");
+        //************FUNCTION******************//
+        Function<String,String> fun = s -> "Hello " + s;
+        String  str = fun.apply("Ozzy");
         System.out.println(str);
 
         System.out.println(fun.apply("Apple"));
 
-        // TODO Supplier
+        //************SUPPLIER******************//
         Supplier<Double> randomValue = () -> Math.random();
         System.out.println(randomValue.get());
+
+
+
+
+        Predicate<Integer> pred = (p) -> p%2 ==0 ? true : false;
+        System.out.println(pred.test(10));
+
+        BiConsumer<Integer,String> bn = (x,y) -> System.out.println(x+y);
+        bn.accept(5,"apple");
+
+
+
+
+
+
+
+
 
     }
 }
