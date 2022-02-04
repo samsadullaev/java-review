@@ -1,5 +1,6 @@
-public class ArraySorting {
+package sort;
 
+public class ArraySorting {
     public static void main(String[] args) {
 
         ArraySorting as = new ArraySorting();

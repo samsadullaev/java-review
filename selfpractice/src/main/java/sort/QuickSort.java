@@ -1,3 +1,5 @@
+package sort;
+
 public class QuickSort implements Sorting {
     @Override
     public void sort() {

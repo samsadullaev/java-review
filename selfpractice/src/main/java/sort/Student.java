@@ -1,10 +1,12 @@
+package sort;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter @Setter
+@Getter
+@Setter
 @NoArgsConstructor
-
 public class Student {
     private String firstName;
     private String lastName;
@@ -13,6 +15,4 @@ public class Student {
     private String password;
     private String confirmedPassword;
     private int age;
-
-
 }
