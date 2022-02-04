@@ -1,6 +1,3 @@
-package homework;
-
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
