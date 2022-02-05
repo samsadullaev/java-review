@@ -1,0 +1,11 @@
+##    Stream 
+
+`map()`-takes `Stream<T>` and returns `Stream<T>`. It mapper function produces single value for each input value. It is called. One-To-One mapping.  
+
+`flatMap()`- takes `Stream<Stream<T>>` as input and returns Stream<T>.It is mapper function produces multiple value for each input value.It is called One-To-Many mapping. 
+
+
+````java
+ Stream.of(1,2,3,4);  ->  [1,2,3,4] 
+ [[1,2],[3,4],[5,6],[7,8]] -> [1,2,3,4,5,6,7,8]
+````
