@@ -1,4 +1,5 @@
 import java.util.Optional;
+import java.util.stream.Stream;
 
 import static java.util.Comparator.comparing;
 
@@ -74,6 +75,11 @@ public class TransactionTest {
 
         Optional<Transaction>smallestValue=TransactionData.getAllTransactions().stream().min(comparing(Transaction::getValue));
         System.out.println(smallestValue.get());
+
+
+        Stream.iterate(new int[]{0, 1}, fib -> new int[]{fib[1], fib[0] + fib[1]})
+                .limit(20)
+                .forEach(t -> System.out.print("(" + t[0] + "," + t[1] + ")"));
 
     }
 }
