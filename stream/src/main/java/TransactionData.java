@@ -3,7 +3,7 @@ import java.util.List;
 
 
 public class TransactionData {
-    public static List<Transaction> getAllTransactions() {
+    public static List<Transaction> getAll(){
 
         Trader raoul = new Trader("Raoul","Cambridge");
         Trader mario = new Trader("Mario","Milan");
