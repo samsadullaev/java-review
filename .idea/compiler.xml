@@ -8,19 +8,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="oop-review" />
         <module name="generics" />
+        <module name="oop-review" />
         <module name="selfpractice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="generics" target="8" />
-      <module name="lambda" target="11" />
-      <module name="oop-review" target="11" />
       <module name="self_practice" target="11" />
       <module name="SelfPractice" target="11" />
-      <module name="selfpractice" target="11" />
-      <module name="stream" target="11" />
       <module name="streams" target="11" />
     </bytecodeTargetLevel>
   </component>
